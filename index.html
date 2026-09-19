@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSI Hall of PRs | First Contribution Celebration</title>
+    <link rel="icon" href="assets/logo.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header>
+    <div class="nav-bar">
+        <div class="logo">
+            <img src="assets/logo.png" alt="CSI Logo" class="logo-img">
+            <p>CSI SCT SB</p>
+        </div>
+        <div class="right-div">
+            <div class="links">
+                <a href="https://www.linkedin.com/company/csi-sct-sb" target="_blank"><i class="icons fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/csisctsb" target="_blank"><i class="icons fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/csi-sct-sb" target="_blank"><i class="icons fa-brands fa-github"></i></a>
+            </div>
+            <div class="cta-btn">
+                <a href="https://github.com/csi-sct-sb/CSI-Hall-of-PRs" target="_blank"><button>Make Your First PR</button></a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="hero">
+    <h1 class="hero-title">Hall of PRs</h1>
+    <p class="hero-subtitle">
+        Your first PR is not code. It's confidence.
+    </p>
+    <div class="hero-counter">
+        🔥 <span id="counter-number" class="counter-number">0</span>
+        <span class="counter-label">Contributors Joined</span>
+    </div>
+    <div class="hero-cta">
+        <a href="https://github.com/csi-sct-sb/CSI-Hall-of-PRs" target="_blank"><button>Add Your Name →</button></a>
+    </div>
+</section>
+
+<section class="why-section">
+    <p class="why-text">
+        This is where your open-source journey begins.<br>
+        One contribution today can shape your developer career tomorrow.
+    </p>
+</section>
+
+<section class="contributors-section">
+    <h2 class="contributors-title">Our Contributors</h2>
+    <div class="contributors-grid">
+        
+        <!-- SAMPLE CARD (COPY THIS TEMPLATE) -->
+        <!-- <div class="card">
+            <div class="badge">
+                <div class="medal"><span class="number">1</span></div>
+                <p class="badge-text">FIRST PR</p>
+            </div>
+
+            <h2 class="name">YOUR NAME</h2>
+            <p class="bio">YOUR BIO (refer: ChooseYourBio.txt, keep it to 12 words)</p>
+            <p class="credit">#FirstPR with CSI SCT SB</p>
+            <button class="celebrate-btn" onclick="showPopup()">
+              Celebrate 🎉
+            </button>
+        </div> -->
+
+        <!-- STARTER CARD -->
+        <div class="card">
+            <div class="badge">
+                <div class="medal"><span class="number">1</span></div>
+                <p class="badge-text">FIRST PR</p>
+            </div>
+
+            <h2 class="name">CSI Team</h2>
+            <p class="bio">Building the future of tech at SCT 💻🚀</p>
+            <p class="credit">#FirstPR with CSI SCT SB</p>
+            <button class="celebrate-btn" onclick="showPopup()">
+              Celebrate 🎉
+            </button>
+        </div>
+
+        <!-- ADD YOUR CARD ABOVE THIS LINE -->
+    </div>
+</section>
+
+<div class="popup" id="popup">
+    <div class="popup-content">
+        <h2>🎉 Congratulations!</h2>
+        <p class="popup-subtext">Your name is now live on the CSI website 🚀</p>
+        <div class="popup-card-preview">
+            <p class="preview-name">I just made my FIRST PR with CSI!</p>
+            <p class="preview-bio">Started my open source journey with Computer Society of India 🚀</p>
+        </div>
+        <button onclick="copyPost()">Copy LinkedIn Post</button>
+        <button class="close-btn" onclick="closePopup()">Close</button>
+    </div>
+</div>
+
+<footer class="footer">
+    <p class="footer-text">
+        Built by <span class="highlight">CSI SCT Student Branch</span> to help students make their first PR.
+    </p>
+    <div class="footer-links">
+        <a href="https://www.linkedin.com/company/csi-sct-sb" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/csisctsb" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://github.com/csi-sct-sb" target="_blank"><i class="fa-brands fa-github"></i></a>
+    </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
