@@ -88,6 +88,7 @@ header {
     font-weight: 700;
     color: var(--accent-blue);
     letter-spacing: 0.5px;
+    white-space: nowrap;
 }
 
 .right-div {
